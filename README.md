@@ -18,7 +18,7 @@ Datas Importantes:
 </ul>
 
 Possíveis Revisões Futuras: <br>
-Novo layout
+Novo layout <br>
 Substituir alert por toasts
 
 Link: <a href="https://caiorossi00.github.io/Jokenpo/" ta
