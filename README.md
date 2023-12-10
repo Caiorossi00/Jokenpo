@@ -6,18 +6,16 @@ O projeto é um jogo de Jokenpô contra o CPU. Este é o meu primeiro projeto em
 Destaques e Aprendizados: <br>
 <ol>
   <li>Loops</li>
-  <li>Condicionais/li>
+  <li>Condicionais</li>
   <li>Manipulação do DOM</li>
   <li>Armazenamento local</li>
 </ol>
 
 Datas Importantes: 
-<ol>
-  <li>Início: 22/08/2023 
-  </li>
-  <li>Conclusão: 22/08/2023
-  </li>
-</ol>
+<ul>
+  <li>Início: 22/08/2023</li>
+  <li>Conclusão: 22/08/2023</li>
+</ul>
 
 Possíveis Revisões Futuras: <br>
 Novo layout
