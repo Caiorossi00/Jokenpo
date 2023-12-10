@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend&family=Poppins&display=swap');
+
+html {
+    height: 100%; 
+    margin: 0; 
+    padding: 0; 
+    overflow: hidden;
+    font-family: "poppins";
+}
+  
+body {
+    background: linear-gradient(220deg,#8dcccc, #e5e8ec);
+}
+
+.bloco {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+    margin: 0 auto;
+    margin-top: 10%;
+    gap: 1vh;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    flex-wrap: wrap;
+}
+
+.botoes-div-container {
+    display: flex;
+    gap: 0.2rem;
+}
+
+.botao {
+    width: 6rem;
+    height: 4rem;
+    letter-spacing: -1px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+.botao:hover, .botao-reset:hover {
+    background-color: greenyellow;
+    transition: 90ms;
+    border: 4px solid green; 
+}
+
+.botao-reset {
+    width: 18rem;
+    height: 4rem;
+    letter-spacing: -1px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}

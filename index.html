@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Jokenpô</title>
+  </head>
+  <body>
+    <div class="bloco">
+      <h1>Jokenpô</h1>
+      <div class="botoes-div-container">
+        <button class="botao" onclick="escolhaJogador('Pedra')">Pedra</button>
+        <button class="botao" onclick="escolhaJogador('Papel')">Papel</button>
+        <button class="botao" onclick="escolhaJogador('Tesoura')">
+          Tesoura
+        </button>
+      </div>
+      <p class="js-score" onclick="atualizarPlacarJokenpo()"></p>
+      <button
+        class="botao-reset"
+        onclick="resetPlacarJokenpo(), atualizarPlacarJokenpo()"
+      >
+        Resetar o placar
+      </button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
